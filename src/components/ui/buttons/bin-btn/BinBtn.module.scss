@@ -1,0 +1,14 @@
+.binButton {
+	width: 35px;
+	height: 35px;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+
+	> img {
+		width: 25px;
+		height: 25px;
+	}
+}

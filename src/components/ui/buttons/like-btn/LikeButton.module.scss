@@ -1,0 +1,14 @@
+.likeButton {
+	width: 35px;
+	height: 35px;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+
+	> img {
+		width: 30px;
+		height: 30px;
+	}
+}
