@@ -5,7 +5,8 @@ import styles from './LikeButton.module.scss'
 export const LikeBtn = () => {
 	const [isFavorite, setIsFavorite] = useState<boolean>(false)
 
-	const toggleFavorite = () => {
+	const toggleFavorite = (e: React.MouseEvent) => {
+		e.stopPropagation()
 		setIsFavorite(!isFavorite)
 	}
 	return (
